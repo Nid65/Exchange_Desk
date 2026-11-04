@@ -29,7 +29,7 @@ copy .env.example .env              # macOS/Linux: cp .env.example .env
 
 Open `.env` and set:
 
-```
+```dotenv
 OPENROUTER_API_KEY=your-key
 ```
 
@@ -49,7 +49,7 @@ Runs every test message through the desk and prints the claim, tone, tool trips 
 streamlit run app.py
 ```
 
-Open http://localhost:8501. Press `Ctrl+C` in the terminal to stop it.
+Open <http://localhost:8501>. Press `Ctrl+C` in the terminal to stop it.
 
 The UI runs the graph itself, so you don't need to start the backend first.
 
